@@ -42,7 +42,7 @@ while True:
         exit()
     # Remove all dots except file extension
     if pattern.lower() == "dots":
-        rename_files(files, '.', '', dots=True)
+        rename_files(files, '.', ' ', dots=True)
         continue
     # Between: Delete characters between two inputs:
     if pattern.lower() == 'between':
